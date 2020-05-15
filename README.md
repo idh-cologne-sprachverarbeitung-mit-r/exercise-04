@@ -2,7 +2,7 @@
 
 **In General**: Please ask questions in the [ilias-Forum](https://www.ilias.uni-koeln.de/ilias/goto_uk_frm_3270419.html) for this course, so that others can also see the question and answer*.
 
-*Please submit your solutions to this exercise until May 15th.*
+*Please submit your solutions to this exercise until May 22nd.*
 
 The goal of this exercise is to become familiar with matrices, lists and data.frames.
 
@@ -48,7 +48,7 @@ Again (as last week), open the file `R/exercise.R` in your favorite text editor.
 - i) Create a data frame to store information about persons and assign it to `i`. The data frame should contain columns for `name` (char.), `age` (numeric), `address` (char.), and `knowsR` (logical). Add data for two persons with made-up data, one that knows R and one that doesn't.
 - j) Assign the mean age to variable `j`.
 - k) Create a variable `k` and assign it a sub-data frame that only contains people that know R (without re-entering everything)
-- m) Let's assume that we would like to encode linguistic properties of a text. The text is "the dog barks.", and you find prepared vectors with the data in the file `R/exercise.R`. Define a variable `m` that contains a data frame with each type of information as one column. Add a fourth column with the length of the tokens (using the function `nchar()`).
+- m) Let's assume that we would like to encode linguistic properties of a text. The text is "the dog barks.", and you find prepared vectors with the data in the file `R/exercise.R` (words, pos, lemmas). Define a variable `m` that contains a data frame with each type of information as one column. Add a fourth column called "length" with the length of the tokens (using the function `nchar()`).
 
 
 ## Step 4
@@ -57,4 +57,4 @@ Now turning back to git: Add your file to the staging area (`git add R/exercise.
 
 ## Step 5
 
-Wait a few minutes. Then go to https://github.com/idh-cologne-sprachverarbeitung-mit-r/exercise-03/actions, select your branch and watch for the results. If your commit has a green checkmark, you're good to go. If you see a red cross, there is a mistake in your code. In this case, you can click on the commit message and inspect the details of the mistake. After that, you should go back to step 4, fix the bug, and add/commit/push again.
+Wait a few minutes. Then go to https://github.com/idh-cologne-sprachverarbeitung-mit-r/exercise-04/actions, select your branch and watch for the results. If your commit has a green checkmark, you're good to go. If you see a red cross, there is a mistake in your code. In this case, you can click on the commit message and inspect the details of the mistake. After that, you should go back to step 4, fix the bug, and add/commit/push again.
