@@ -41,7 +41,7 @@ Again (as last week), open the file `R/exercise.R` in your favorite text editor.
 - e) Assign a list to variable `e`. The list should contain three elements: `"Hello World!"`, `TRUE`, and `3.5`. Please note that they have different types, which is no problem for lists (but for vectors).
 - f) Create a named list and assign it to the variable `f`. The list should contain three elements called `f1` to `f3`. The values should be 1 to 3.
 - g) Assign the `f2`-value of `f` to `g`
-- h) Extend the list `f` with a new element called `f4`. The value of the element is the matrix defined in `a`.
+- h) Extend the list `f` with a new element called `f4` and assign the result to the variable `h`. The value of the element is the matrix defined in `a`.
 
 ### Data frames
 
