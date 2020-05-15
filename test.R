@@ -45,3 +45,27 @@ expect_equal(h[[4]], a)
 expect_equal(names(h), c("f1", "f2", "f3", ""))
 
 # i)
+expect_s3_class(i, "data.frame")
+expect_equal(ncol(i), 4)
+expect_named(i)
+expect_equal(names(i), c("name", "age", "address", "knowsR"))
+expect_gte(sum(i$knowsR), 1)
+expect_gte(sum(! i$knowsR), 1)
+
+# j) 
+expect_equal(j, mean(i$age))
+
+# k)
+expect_s3_class(k, "data.frame")
+expect_equal(ncol(k), 4)
+expect_named(k)
+expect_equal(names(k), c("name", "age", "address", "knowsR"))
+expect_equal(sum(k$knowsR), nrow(k))
+
+
+# m)
+expect_s3_class(m, "data.frame")
+expect_equal(ncol(m), 4)
+expect_named(m)
+expect_equal(names(m), c("words", "pos", "lemma", "length"))
+expect_equal(m$length, nchar(words))
