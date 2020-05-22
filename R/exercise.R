@@ -23,7 +23,7 @@ mode(c)
 d <- colSums(b)[210]
 
 # e)
-e <- list("Hello World", TRUE, 3.5)
+e <- list("Hello World!", TRUE, 3.5)
 
 # f)
 f <- list(f1=1, f2=2, f3=3)
