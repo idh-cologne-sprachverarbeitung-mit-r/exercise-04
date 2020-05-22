@@ -33,7 +33,7 @@ g <- f[[2]]
 
 # h)
 h <- f
-f[["f4"]] <- a
+h[["f4"]] <- a
 
 # i)
 i <- data.frame("Name"=c("Anna","Luis"), "Age"=c(2, 20), "Address"=c("Mohnstr. 7","Kölner Str. 1"), "knowsR"=c(FALSE,TRUE))
@@ -47,5 +47,3 @@ k <- i[2,]
 # m)
 length <- nchar(words)
 m <- data.frame(words, pos, lemma, length)
-
-
