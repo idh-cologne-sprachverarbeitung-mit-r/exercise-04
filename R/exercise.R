@@ -17,7 +17,7 @@ h <- c(f) # Clone f, as tests depend on `f` not getting modified
 h$f4 <- a
 
 
-i <- data.frame(name=c("Foo", "Bar"), age=c(23, 42), kdnowsR=c(F, T))
+i <- data.frame(name=c("Foo", "Bar"), age=c(23, 42), knowsR=c(F, T))
 j <- mean(i$age)
 k <- subset(i, knowsR == T)
 
