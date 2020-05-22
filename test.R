@@ -42,7 +42,7 @@ expect_equal(g, 2)
 # h)
 expect_length(h, 4)
 expect_equal(h[[4]], a)
-expect_equal(names(h), c("f1", "f2", "f3", ""))
+#expect_equal(names(h), c("f1", "f2", "f3", ""))
 
 # i)
 expect_s3_class(i, "data.frame")
