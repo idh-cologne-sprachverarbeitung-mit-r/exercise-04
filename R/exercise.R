@@ -24,9 +24,9 @@ names(f) <- c("f1", "f2", "f3")
 
 g <- f$f2
 
-f$f4 <- a
-
 h <- f$f4
+
+f$f4 <- a
 
 name <- c("Paul", "Thomas")
 age <- c(60, 17)
