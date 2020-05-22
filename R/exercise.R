@@ -36,7 +36,7 @@ h <- f
 h[4] <- list(a)
 
 # i)
-i <- data.frame("name"=c("Anna","Luis"), "gge"=c(2, 20), "address"=c("Mohnstr. 7","Kölner Str. 1"), "knowsR"=c(FALSE,TRUE))
+i <- data.frame("name"=c("Anna","Luis"), "age"=c(2, 20), "address"=c("Mohnstr. 7","Kölner Str. 1"), "knowsR"=c(FALSE,TRUE))
 
 # j)
 j <- colMeans(i[2])
