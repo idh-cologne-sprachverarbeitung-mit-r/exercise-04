@@ -34,6 +34,7 @@ g <- f[[2]]
 # h)
 h <- f
 h[["f4"]] <- a
+f <- h
 
 # i)
 i <- data.frame("Name"=c("Anna","Luis"), "Age"=c(2, 20), "Address"=c("Mohnstr. 7","Kölner Str. 1"), "knowsR"=c(FALSE,TRUE))
