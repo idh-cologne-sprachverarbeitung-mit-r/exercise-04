@@ -12,10 +12,12 @@ d <- colSums(b)[210]
 e <- list("Hello World!", TRUE, 3.5)
 f <- list(f1=1, f2=2, f3=3)
 g <- f['f2']
-h <- f['f4'] <- a
+
+h <- c(f) # Clone f, as tests depend on `f` not getting modified
+h$f4 <- a
 
 
-i <- data.frame(name=c("Foo", "Bar"), age=c(23, 42), knowsR=c(F, T))
+i <- data.frame(name=c("Foo", "Bar"), age=c(23, 42), kdnowsR=c(F, T))
 j <- mean(i$age)
 k <- subset(i, knowsR == T)
 
