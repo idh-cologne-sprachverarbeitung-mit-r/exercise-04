@@ -39,7 +39,7 @@ h[4] <- list(a)
 i <- data.frame("name"=c("Anna","Luis"), "age"=c(2, 20), "address"=c("Mohnstr. 7","Kölner Str. 1"), "knowsR"=c(FALSE,TRUE))
 
 # j)
-j <- colMeans(i[2])
+j <- mean(i$age)
 
 # k)
 k <- i[2,]
